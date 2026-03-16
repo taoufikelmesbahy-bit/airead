@@ -58,7 +58,7 @@ const Navbar = ({ onNavigate }: { onNavigate: (page: 'home' | 'about' | 'privacy
               <Zap className="text-white w-6 h-6" />
             </div>
             <span className="text-2xl font-display font-bold tracking-tighter">
-              CARS<span className="text-brand-orange">ONE</span>
+              AI<span className="text-brand-orange">READY CARS</span>
             </span>
           </div>
 
@@ -569,16 +569,16 @@ const AboutPage = ({ onBack }: { onBack: () => void, key?: string }) => {
         </button>
 
         <h1 className="text-5xl md:text-7xl font-display font-bold tracking-tighter mb-12">
-          ABOUT US <span className="text-brand-orange uppercase">CARSONE</span>
+          ABOUT US <span className="text-brand-orange uppercase">AIREADY CARS</span>
         </h1>
 
         <div className="space-y-8 text-lg text-white/70 leading-relaxed font-light">
           <p className="text-xl text-white font-medium">
-            Welcome to CARSONE, your trusted destination for professional car repair and maintenance. Our goal is to provide reliable, high-quality automotive services that keep your vehicle running safely and efficiently.
+            Welcome to AIREADY CARS, your trusted destination for professional car repair and maintenance. Our goal is to provide reliable, high-quality automotive services that keep your vehicle running safely and efficiently.
           </p>
 
           <p>
-            At CARSONE, we understand how important your car is to your daily life. That’s why our team of experienced mechanics works with precision, modern diagnostic tools, and a strong commitment to quality. Whether your vehicle needs routine maintenance, diagnostics, brake service, or more advanced repairs, we make sure every job is done with care and professionalism.
+            At AIREADY CARS, we understand how important your car is to your daily life. That’s why our team of experienced mechanics works with precision, modern diagnostic tools, and a strong commitment to quality. Whether your vehicle needs routine maintenance, diagnostics, brake service, or more advanced repairs, we make sure every job is done with care and professionalism.
           </p>
 
           <p>
@@ -586,7 +586,7 @@ const AboutPage = ({ onBack }: { onBack: () => void, key?: string }) => {
           </p>
 
           <div className="py-12">
-            <h2 className="text-3xl font-display font-bold text-white mb-8 tracking-tight">Why Choose CARSONE</h2>
+            <h2 className="text-3xl font-display font-bold text-white mb-8 tracking-tight">Why Choose AIREADY CARS</h2>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
                 "Skilled and experienced mechanics",
@@ -606,7 +606,7 @@ const AboutPage = ({ onBack }: { onBack: () => void, key?: string }) => {
           </div>
 
           <p>
-            At CARSONE, we aim to build long-term relationships with our customers by providing dependable service and expert care for every vehicle that comes through our workshop.
+            At AIREADY CARS, we aim to build long-term relationships with our customers by providing dependable service and expert care for every vehicle that comes through our workshop.
           </p>
 
           <div className="pt-12 border-t border-white/10">
@@ -669,7 +669,7 @@ const PrivacyPolicyPage = ({ onBack }: { onBack: () => void, key?: string }) => 
 
         <div className="space-y-12 text-lg text-white/70 leading-relaxed font-light">
           <p className="text-xl text-white font-medium">
-            Welcome to CARSONE. Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your information when you visit our website or use our services.
+            Welcome to AIREADY CARS. Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your information when you visit our website or use our services.
           </p>
 
           <section className="space-y-6">
@@ -692,7 +692,7 @@ const PrivacyPolicyPage = ({ onBack }: { onBack: () => void, key?: string }) => 
 
           <section className="space-y-6">
             <h2 className="text-3xl font-display font-bold text-white tracking-tight">2. How We Use Your Information</h2>
-            <p>CARSONE may use the information we collect to:</p>
+            <p>AIREADY CARS may use the information we collect to:</p>
             <ul className="list-disc list-inside space-y-2 ml-4">
               <li>Respond to inquiries and customer support requests</li>
               <li>Schedule and manage service appointments</li>
@@ -702,7 +702,7 @@ const PrivacyPolicyPage = ({ onBack }: { onBack: () => void, key?: string }) => 
 
           <section className="space-y-6">
             <h2 className="text-3xl font-display font-bold text-white tracking-tight">3. Sharing Your Information</h2>
-            <p>CARSONE does not sell, trade, or rent your personal information to third parties.</p>
+            <p>AIREADY CARS does not sell, trade, or rent your personal information to third parties.</p>
           </section>
 
           <section className="space-y-6">
@@ -718,7 +718,7 @@ const PrivacyPolicyPage = ({ onBack }: { onBack: () => void, key?: string }) => 
 
           <section className="space-y-6">
             <h2 className="text-3xl font-display font-bold text-white tracking-tight">6. Third-Party Links</h2>
-            <p>Our website may contain links to third-party websites. CARSONE is not responsible for the privacy practices or content of those external websites.</p>
+            <p>Our website may contain links to third-party websites. AIREADY CARS is not responsible for the privacy practices or content of those external websites.</p>
           </section>
 
           <section className="space-y-6">
@@ -758,7 +758,7 @@ const PrivacyPolicyPage = ({ onBack }: { onBack: () => void, key?: string }) => 
           </section>
 
           <p className="pt-12 text-center text-white/40 text-sm">
-            By using our website, you agree to the terms of this Privacy Policy. CARSONE may update this policy from time to time, and any changes will be posted on this page.
+            By using our website, you agree to the terms of this Privacy Policy. AIREADY CARS may update this policy from time to time, and any changes will be posted on this page.
           </p>
         </div>
       </div>
@@ -795,19 +795,19 @@ const LegalNoticePage = ({ onBack }: { onBack: () => void, key?: string }) => {
           <section className="space-y-6">
             <h2 className="text-3xl font-display font-bold text-white tracking-tight">1. Datos identificativos</h2>
             <div className="glass p-8 rounded-2xl space-y-4 border-white/5">
-              <p><span className="text-brand-orange font-bold uppercase tracking-widest text-xs block mb-1">Titular</span> CARSONE</p>
+              <p><span className="text-brand-orange font-bold uppercase tracking-widest text-xs block mb-1">Titular</span> AIREADY CARS</p>
               <p><span className="text-brand-orange font-bold uppercase tracking-widest text-xs block mb-1">Dirección</span> MADRID, España</p>
               <p><span className="text-brand-orange font-bold uppercase tracking-widest text-xs block mb-1">Teléfono</span> +34698167235</p>
               <p><span className="text-brand-orange font-bold uppercase tracking-widest text-xs block mb-1">Correo electrónico</span> info@airead.site</p>
             </div>
-            <p>El presente sitio web tiene como finalidad ofrecer información sobre los servicios de mecánica a domicilio ofrecidos por CARSONE.</p>
+            <p>El presente sitio web tiene como finalidad ofrecer información sobre los servicios de mecánica a domicilio ofrecidos por AIREADY CARS.</p>
           </section>
 
           <section className="space-y-6">
             <h2 className="text-3xl font-display font-bold text-white tracking-tight">2. Condiciones de uso</h2>
             <p>El acceso y uso del sitio web atribuye la condición de usuario e implica la aceptación plena y sin reservas de todas las disposiciones incluidas en este Aviso Legal.</p>
             <p>El usuario se compromete a utilizar el sitio web de conformidad con la ley, la buena fe, el orden público y el presente Aviso Legal.</p>
-            <p>Queda prohibido el uso del sitio web con fines ilícitos o que puedan causar perjuicios a CARSONE o a terceros.</p>
+            <p>Queda prohibido el uso del sitio web con fines ilícitos o que puedan causar perjuicios a AIREADY CARS o a terceros.</p>
           </section>
 
           <section className="space-y-6">
@@ -818,13 +818,13 @@ const LegalNoticePage = ({ onBack }: { onBack: () => void, key?: string }) => {
 
           <section className="space-y-6">
             <h2 className="text-3xl font-display font-bold text-white tracking-tight">4. Responsabilidad</h2>
-            <p>CARSONE no se responsabiliza de los daños o perjuicios derivados del uso de la información contenida en este sitio web ni de posibles errores u omisiones en los contenidos.</p>
-            <p>Asimismo, CARSONE no garantiza la disponibilidad permanente del sitio web ni se hace responsable de posibles interrupciones del servicio.</p>
+            <p>AIREADY CARS no se responsabiliza de los daños o perjuicios derivados del uso de la información contenida en este sitio web ni de posibles errores u omisiones en los contenidos.</p>
+            <p>Asimismo, AIREADY CARS no garantiza la disponibilidad permanente del sitio web ni se hace responsable de posibles interrupciones del servicio.</p>
           </section>
 
           <section className="space-y-6">
             <h2 className="text-3xl font-display font-bold text-white tracking-tight">5. Enlaces externos</h2>
-            <p>Este sitio web puede contener enlaces a sitios web de terceros. CARSONE no se responsabiliza del contenido, políticas o prácticas de dichos sitios externos.</p>
+            <p>Este sitio web puede contener enlaces a sitios web de terceros. AIREADY CARS no se responsabiliza del contenido, políticas o prácticas de dichos sitios externos.</p>
           </section>
 
           <section className="space-y-6">
@@ -835,7 +835,7 @@ const LegalNoticePage = ({ onBack }: { onBack: () => void, key?: string }) => {
 
           <section className="space-y-6">
             <h2 className="text-3xl font-display font-bold text-white tracking-tight">7. Legislación aplicable y jurisdicción</h2>
-            <p>La relación entre CARSONE and el usuario se regirá por la normativa vigente en Spain.</p>
+            <p>La relación entre AIREADY CARS and el usuario se regirá por la normativa vigente en Spain.</p>
             <p>Para la resolución de cualquier controversia que pudiera surgir en relación con el acceso o uso del sitio web, las partes se someterán a los juzgados y tribunales de Málaga, salvo que la legislación aplicable disponga otra cosa.</p>
           </section>
 
@@ -899,7 +899,7 @@ const CookiesPage = ({ onBack }: { onBack: () => void, key?: string }) => {
           <section className="space-y-6">
             <h2 className="text-3xl font-display font-bold text-white tracking-tight">¿Qué son las cookies?</h2>
             <p>Las cookies son pequeños archivos de texto que se almacenan en el dispositivo del usuario cuando visita un sitio web. Su finalidad es recordar información sobre la visita del usuario para mejorar la experiencia de navegación.</p>
-            <p>El sitio web de CARSONE utiliza cookies propias y de terceros con el objetivo de mejorar la navegación del usuario, analizar el uso del sitio web y ofrecer contenidos adaptados a los intereses de los usuarios.</p>
+            <p>El sitio web de AIREADY CARS utiliza cookies propias y de terceros con el objetivo de mejorar la navegación del usuario, analizar el uso del sitio web y ofrecer contenidos adaptados a los intereses de los usuarios.</p>
           </section>
 
           <section className="space-y-6">
@@ -953,7 +953,7 @@ const CookiesPage = ({ onBack }: { onBack: () => void, key?: string }) => {
 
           <section className="space-y-6">
             <h2 className="text-3xl font-display font-bold text-white tracking-tight">Cambios en la política de cookies</h2>
-            <p>CARSONE se reserva el derecho a modificar la presente política de cookies para adaptarla a cambios legislativos o técnicos. Se recomienda a los usuarios revisar esta página periódicamente.</p>
+            <p>AIREADY CARS se reserva el derecho a modificar la presente política de cookies para adaptarla a cambios legislativos o técnicos. Se recomienda a los usuarios revisar esta página periódicamente.</p>
           </section>
         </div>
       </div>
@@ -975,7 +975,7 @@ const Footer = ({ onNavigate }: { onNavigate: (page: 'home' | 'about' | 'privacy
                 <Zap className="text-white w-6 h-6" />
               </div>
               <span className="text-2xl font-display font-bold tracking-tighter">
-                CARS<span className="text-brand-orange">ONE</span>
+                AI<span className="text-brand-orange">READY CARS</span>
               </span>
             </div>
             <p className="text-white/40 leading-relaxed">
@@ -1043,7 +1043,7 @@ const Footer = ({ onNavigate }: { onNavigate: (page: 'home' | 'about' | 'privacy
         </div>
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-white/20">
-          <div>© 2023 CARSONE Precision. All rights reserved.</div>
+          <div>© 2023 AIREADY CARS Precision. All rights reserved.</div>
           <div className="flex items-center gap-8">
             <a 
               href="#" 
