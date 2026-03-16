@@ -358,14 +358,14 @@ const GallerySection = () => {
   ];
 
   return (
-    <section id="gallery" className="py-32">
+    <section className="py-32">
       <div className="container mx-auto px-6">
         <div className="text-center mb-20">
           <h2 className="text-sm font-bold text-brand-orange uppercase tracking-[0.3em] mb-4">Our Workshop</h2>
           <h3 className="text-5xl md:text-7xl font-display font-bold tracking-tighter">WHERE MAGIC HAPPENS</h3>
         </div>
 
-        <div className="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6">
+        <div id="gallery" className="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6 scroll-mt-32">
           {images.map((src, i) => (
             <motion.div 
               key={i}
@@ -402,7 +402,7 @@ const ReviewsSection = () => {
   ];
 
   return (
-    <section id="reviews" className="py-32 bg-graphite/30">
+    <section className="py-32 bg-graphite/30">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           <div className="lg:col-span-1">
@@ -429,7 +429,7 @@ const ReviewsSection = () => {
             </div>
           </div>
 
-          <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div id="reviews" className="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-6 scroll-mt-32">
             {reviews.map((review, i) => (
               <motion.div 
                 key={i}
@@ -569,16 +569,16 @@ const AboutPage = ({ onBack }: { onBack: () => void, key?: string }) => {
         </button>
 
         <h1 className="text-5xl md:text-7xl font-display font-bold tracking-tighter mb-12">
-          ABOUT US <span className="text-brand-orange uppercase">Carsone</span>
+          ABOUT US <span className="text-brand-orange uppercase">CARSONE</span>
         </h1>
 
         <div className="space-y-8 text-lg text-white/70 leading-relaxed font-light">
           <p className="text-xl text-white font-medium">
-            Welcome to Carsone, your trusted destination for professional car repair and maintenance. Our goal is to provide reliable, high-quality automotive services that keep your vehicle running safely and efficiently.
+            Welcome to CARSONE, your trusted destination for professional car repair and maintenance. Our goal is to provide reliable, high-quality automotive services that keep your vehicle running safely and efficiently.
           </p>
 
           <p>
-            At Carsone, we understand how important your car is to your daily life. That’s why our team of experienced mechanics works with precision, modern diagnostic tools, and a strong commitment to quality. Whether your vehicle needs routine maintenance, diagnostics, brake service, or more advanced repairs, we make sure every job is done with care and professionalism.
+            At CARSONE, we understand how important your car is to your daily life. That’s why our team of experienced mechanics works with precision, modern diagnostic tools, and a strong commitment to quality. Whether your vehicle needs routine maintenance, diagnostics, brake service, or more advanced repairs, we make sure every job is done with care and professionalism.
           </p>
 
           <p>
@@ -586,7 +586,7 @@ const AboutPage = ({ onBack }: { onBack: () => void, key?: string }) => {
           </p>
 
           <div className="py-12">
-            <h2 className="text-3xl font-display font-bold text-white mb-8 tracking-tight">Why Choose Carsone</h2>
+            <h2 className="text-3xl font-display font-bold text-white mb-8 tracking-tight">Why Choose CARSONE</h2>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
                 "Skilled and experienced mechanics",
@@ -606,7 +606,7 @@ const AboutPage = ({ onBack }: { onBack: () => void, key?: string }) => {
           </div>
 
           <p>
-            At Carsone, we aim to build long-term relationships with our customers by providing dependable service and expert care for every vehicle that comes through our workshop.
+            At CARSONE, we aim to build long-term relationships with our customers by providing dependable service and expert care for every vehicle that comes through our workshop.
           </p>
 
           <div className="pt-12 border-t border-white/10">
@@ -669,7 +669,7 @@ const PrivacyPolicyPage = ({ onBack }: { onBack: () => void, key?: string }) => 
 
         <div className="space-y-12 text-lg text-white/70 leading-relaxed font-light">
           <p className="text-xl text-white font-medium">
-            Welcome to Carsone. Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your information when you visit our website or use our services.
+            Welcome to CARSONE. Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your information when you visit our website or use our services.
           </p>
 
           <section className="space-y-6">
@@ -692,7 +692,7 @@ const PrivacyPolicyPage = ({ onBack }: { onBack: () => void, key?: string }) => 
 
           <section className="space-y-6">
             <h2 className="text-3xl font-display font-bold text-white tracking-tight">2. How We Use Your Information</h2>
-            <p>Carsone may use the information we collect to:</p>
+            <p>CARSONE may use the information we collect to:</p>
             <ul className="list-disc list-inside space-y-2 ml-4">
               <li>Respond to inquiries and customer support requests</li>
               <li>Schedule and manage service appointments</li>
@@ -702,7 +702,7 @@ const PrivacyPolicyPage = ({ onBack }: { onBack: () => void, key?: string }) => 
 
           <section className="space-y-6">
             <h2 className="text-3xl font-display font-bold text-white tracking-tight">3. Sharing Your Information</h2>
-            <p>Carsone does not sell, trade, or rent your personal information to third parties.</p>
+            <p>CARSONE does not sell, trade, or rent your personal information to third parties.</p>
           </section>
 
           <section className="space-y-6">
@@ -718,7 +718,7 @@ const PrivacyPolicyPage = ({ onBack }: { onBack: () => void, key?: string }) => 
 
           <section className="space-y-6">
             <h2 className="text-3xl font-display font-bold text-white tracking-tight">6. Third-Party Links</h2>
-            <p>Our website may contain links to third-party websites. Carsone is not responsible for the privacy practices or content of those external websites.</p>
+            <p>Our website may contain links to third-party websites. CARSONE is not responsible for the privacy practices or content of those external websites.</p>
           </section>
 
           <section className="space-y-6">
@@ -758,7 +758,7 @@ const PrivacyPolicyPage = ({ onBack }: { onBack: () => void, key?: string }) => 
           </section>
 
           <p className="pt-12 text-center text-white/40 text-sm">
-            By using our website, you agree to the terms of this Privacy Policy. Carsone may update this policy from time to time, and any changes will be posted on this page.
+            By using our website, you agree to the terms of this Privacy Policy. CARSONE may update this policy from time to time, and any changes will be posted on this page.
           </p>
         </div>
       </div>
@@ -818,7 +818,7 @@ const LegalNoticePage = ({ onBack }: { onBack: () => void, key?: string }) => {
 
           <section className="space-y-6">
             <h2 className="text-3xl font-display font-bold text-white tracking-tight">4. Responsabilidad</h2>
-            <p>FASTMEC no se responsabiliza de los daños o perjuicios derivados del uso de la información contenida en este sitio web ni de posibles errores u omisiones en los contenidos.</p>
+            <p>CARSONE no se responsabiliza de los daños o perjuicios derivados del uso de la información contenida en este sitio web ni de posibles errores u omisiones en los contenidos.</p>
             <p>Asimismo, CARSONE no garantiza la disponibilidad permanente del sitio web ni se hace responsable de posibles interrupciones del servicio.</p>
           </section>
 
@@ -899,7 +899,7 @@ const CookiesPage = ({ onBack }: { onBack: () => void, key?: string }) => {
           <section className="space-y-6">
             <h2 className="text-3xl font-display font-bold text-white tracking-tight">¿Qué son las cookies?</h2>
             <p>Las cookies son pequeños archivos de texto que se almacenan en el dispositivo del usuario cuando visita un sitio web. Su finalidad es recordar información sobre la visita del usuario para mejorar la experiencia de navegación.</p>
-            <p>El sitio web de FASTMEC utiliza cookies propias y de terceros con el objetivo de mejorar la navegación del usuario, analizar el uso del sitio web y ofrecer contenidos adaptados a los intereses de los usuarios.</p>
+            <p>El sitio web de CARSONE utiliza cookies propias y de terceros con el objetivo de mejorar la navegación del usuario, analizar el uso del sitio web y ofrecer contenidos adaptados a los intereses de los usuarios.</p>
           </section>
 
           <section className="space-y-6">
@@ -953,7 +953,7 @@ const CookiesPage = ({ onBack }: { onBack: () => void, key?: string }) => {
 
           <section className="space-y-6">
             <h2 className="text-3xl font-display font-bold text-white tracking-tight">Cambios en la política de cookies</h2>
-            <p>FASTMEC se reserva el derecho a modificar la presente política de cookies para adaptarla a cambios legislativos o técnicos. Se recomienda a los usuarios revisar esta página periódicamente.</p>
+            <p>CARSONE se reserva el derecho a modificar la presente política de cookies para adaptarla a cambios legislativos o técnicos. Se recomienda a los usuarios revisar esta página periódicamente.</p>
           </section>
         </div>
       </div>
